@@ -4,9 +4,9 @@ class CalculateNK
 {
     static void Main()
     {
-        Console.Write("Positive int > 0 and < 100: ");
+            Console.Write("Positive int < 100: ");
             byte n = byte.Parse(Console.ReadLine());
-            Console.Write("Positive int > 0 and < N: ");
+            Console.Write("Positive int < N: ");
             byte k = byte.Parse(Console.ReadLine());
             k++;
 
